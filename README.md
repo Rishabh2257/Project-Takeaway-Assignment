@@ -3,7 +3,7 @@
 ---
 ## screenshots
 ### Homepage
-![homepage snap](https://github.com/sumitkumar1503/onlinequiz/blob/master/static/screenshots/1.png?raw=true)
+![homepage snap](https://github.com/sumitkumar1503/onlinequiz/blob/master/static/screenshots/1.jpg?raw=true)
 ### Admin Dashboard
 ![dashboard snap](https://github.com/sumitkumar1503/onlinequiz/blob/master/static/screenshots/2.png?raw=true)
 ### Exam Rules
