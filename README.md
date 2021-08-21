@@ -1,17 +1,27 @@
-# Online Quiz
+# Project-Takeaway-Assignment
 ![developer](https://img.shields.io/badge/Developed%20By%20%3A-Rishabh%20Raj-red)
 ---
 ## screenshots
 ### Homepage
-![homepage snap](https://github.com/Rishabh2257/onlinequiz/blob/master/static/screenshots/1.jpg?raw=true)
+![homepage snap](https://github.com/Rishabh2257/Project-Takeaway-Assignment/blob/main/static/screenshots/1.JPG)
+### Admin Login
+![dashboard snap](https://github.com/Rishabh2257/Project-Takeaway-Assignment/blob/main/static/screenshots/2.JPG)
 ### Admin Dashboard
-![dashboard snap](https://github.com/Rishabh2257/onlinequiz/blob/master/static/screenshots/2.png?raw=true)
-### Exam Rules
-![invoice snap](https://github.com/Rishabh2257/onlinequiz/blob/master/static/screenshots/3.png?raw=true)
-### Exam
-![doctor snap](https://github.com/Rishabh2257/onlinequiz/blob/master/static/screenshots/4.png?raw=true)
-### Teacher
-![doctor snap](https://github.com/Rishabh2257/onlinequiz/blob/master/static/screenshots/5.png?raw=true)
+![invoice snap](https://github.com/Rishabh2257/Project-Takeaway-Assignment/blob/main/static/screenshots/4.JPG)
+### Admin Approval Panel
+![doctor snap](https://github.com/Rishabh2257/Project-Takeaway-Assignment/blob/main/static/screenshots/5.JPG)
+### Teacher Panel
+![doctor snap](https://github.com/Rishabh2257/Project-Takeaway-Assignment/blob/main/static/screenshots/3.JPG)
+### Teacher Dashboard
+![homepage snap](https://github.com/Rishabh2257/Project-Takeaway-Assignment/blob/main/static/screenshots/10.JPG)
+### Student Dashboard
+![dashboard snap](https://github.com/Rishabh2257/Project-Takeaway-Assignment/blob/main/static/screenshots/11.JPG)
+### Student Courses
+![invoice snap](https://github.com/Rishabh2257/Project-Takeaway-Assignment/blob/main/static/screenshots/12.JPG)
+### Exam Instructions
+![doctor snap](https://github.com/Rishabh2257/Project-Takeaway-Assignment/blob/main/static/screenshots/14.JPG)
+### Questions
+![doctor snap](https://github.com/Rishabh2257/Project-Takeaway-Assignment/blob/main/static/screenshots/13.JPG)
 ---
 ## Functions
 ### Admin
@@ -44,7 +54,7 @@ py manage.py createsuperuser
 ---
 
 ## HOW TO RUN THIS PROJECT
-- Install Python(3.7.6) (Dont Forget to Tick Add to Path while installing Python)
+- Install Python(3.9.6) 
 - Open Terminal and Execute Following Commands :
 ```
 python -m pip install -r requirements. txt
@@ -52,28 +62,13 @@ python -m pip install -r requirements. txt
 - Download This Project Zip Folder and Extract it
 - Move to project folder in Terminal. Then run following Commands :
 ```
-py manage.py makemigrations
-py manage.py migrate
-py manage.py runserver
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
 ```
 - Now enter following URL in Your Browser Installed On Your Pc
 ```
 http://127.0.0.1:8000/
 ```
-
-## CHANGES REQUIRED FOR CONTACT US PAGE
-- In settins.py file, You have to give your email and password
-```
-EMAIL_HOST_USER = 'youremail@gmail.com'
-EMAIL_HOST_PASSWORD = 'your email password'
-EMAIL_RECEIVING_USER = 'youremail@gmail.com'
 ```
 
-## Drawbacks/LoopHoles
-- Admin/Teacher can add any number of questions to any course, But while adding course, admin provide question number.
-
-
-## Feedback
-Any suggestion and feedback is welcome. You can message me on facebook
-- [Contact on Facebook](https://fb.com/sumit.luv)
-- [Subscribe my Channel LazyCoder On Youtube](https://youtube.com/lazycoders)
